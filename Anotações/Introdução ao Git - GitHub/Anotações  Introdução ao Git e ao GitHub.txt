@@ -1,0 +1,63 @@
+Git Iniciando	
+
+git init
+git add
+git commit
+
+Flag -a => mostra arquivos ocultos
+
+Git init -> cria um repositório 
+Comandos Basicos CMD
+comando dir => listar todas as pastas/diretórios
+comando cd => navegar nas pastas dos diretórios
+comando cd .. => retroceder um nível de pastas
+comando cls => limpar a tela do terminal
+comando + TAB para autocompletar
+comando echo => pega uma string e imprimi ela.
+
+comando mkdir => criar uma pasta/diretório
+
+comando del => deleta somente os arquivos do repositório 
+comando rmdir + nome da pasta+ /S /Q => deleta todo o repositório.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+SHA1= Algoritmo de encriptação(40 digitos de caracteres) com openssl
+
+Objetos Fundamentais
+
+Blobs - tipo de objeto com metadados do git(tipo de objeto, o tamanho da String etc) 
+Trees - tipo de objeto com metadados que aponta para blob e até outras arvores, responsável por montar toda a instrutura dos objetos.
+Commits - tipo de objeto que aponta para uma arvore, parente, autor, mensagem, possui um SHA1 
+
+Sistema distribuído Seguro.
+
+-----------------------------------------------------------------------------------------------------------------------------
+Iniciando Git
+
+git add nomeArquivo
+git add*
+git add
+>move os arquivos untracked e que foram modificados para área staged(área que vai entrar em ação)
+
+git commit -m "msg" > pegou todos os arquivos que estavam em staged e envelopou em uma mensagem e criou o objeto chamado commit
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Revisando Git / GitHub
+
+Clonando o projeto na máquina para edição
+
+Acessar o Git copiar o código do projeto / Abrir o Git Bash direto da pasta onde você quer clonar o projeto/ Digitar o código: " git clone  (cole aqui o endereço copiado do github)
+
+Digite o comando (cd + o nome da pasta do projeto) para entrar na pasta de projeto e começar a trabalhar
+
+git status(verifica o status da pasta)
+
+
+
+
+
+
+
+
